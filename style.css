@@ -1,0 +1,180 @@
+:root {
+  --green: #00E77f;
+  --white:#fff;
+  --light-white:#aaa;
+  --black:#3d3d3d3d;
+  --light-bg:#4b4b4b;
+}
+
+::selection {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-margin-block-start: start;
+}
+
+::-webkit-scrollbar {
+  height: 5rem;
+  width: 1rem;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--green);
+  border-radius: 5rem;
+}
+
+body {
+  background-color: var(--black);
+}
+
+header {
+  position: fixed;
+  top: 0; left: 0; right: 0; 
+  z-index: 1000;
+  background-color: var(--light-bg);
+  height: 80px;
+}
+
+.nav .navbarm {
+  height: 20%;
+  max-width: 1850px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+body {
+  background-color: rgb(33, 33, 33);
+  height: 900%;
+}
+.linksmm li a:hover {
+  color: var(--green);
+}
+
+.nav .navbarm .nav-linksm .linksmm {
+  display: flex;
+  line-height: 90px;
+  margin-top: -5px;
+}
+.nav .navbarm .nav-linksm {
+  height: 100%;
+  line-height: 70px   ;
+}
+.nav .navbarm .nav-linksm {
+  height: 100%;
+}
+.nav .navbarm .nav-linksm .linksmm li {
+  list-style: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.nav .navbarm .nav-linksm .linksmm a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+.linksmm {
+  margin-left: 700px;
+  margin-top: -10px;
+  font-size:  18px;
+}
+.linksmm li a {
+  color: rgb(251, 247, 247);
+  font-family: Tahoma;
+}
+.online {
+  margin-left: 300px;
+  font-size: 33px;
+  font-family: arial black;
+  margin-top: 80px;
+  color: #fff;
+}
+/* From Uiverse.io by Madflows */ 
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(135, 93, 233) 10.8%,
+    #00E77f
+  );
+  transition: all 0.475s;
+}
+
+
+.imj {
+  margin-top: -300px;
+  margin-left: 470px;
+}
+
+.mey {
+  margin-top: -45px;
+  margin-left: 50px;
+}
+
+.spek {
+  background-color: #2e2e2e;
+  height: 70px;
+  width: 210px;
+  margin-left: 290px;
+  margin-top: 40px;
+}
+.spek1 {
+  background-color: #2e2e2e;
+  height: 70px;
+  width: 210px;
+  margin-left: 510px;
+  margin-top: -70px;
+}
+.spek2 {
+  background-color: #2e2e2e;
+  height: 70px;
+  width: 210px;
+  margin-left: 730px;
+  margin-top: -70px;
+}
+.spek3 {
+  background-color: #2e2e2e;
+  height: 70px;
+  width: 210px;
+  margin-left: 950px;
+  margin-top: -70px;
+}
